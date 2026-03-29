@@ -19,7 +19,7 @@
 		"@astrojs/check": "^0.9.4",
 		"@astrojs/cloudflare": "^12.5.0",
 		"@astrojs/rss": "^4.0.11",
-		"@astrojs/sitemap": "^3.3.0",
+		"@astrojs/sitemap": "^3.7.2",
 		"@astrojs/svelte": "7.0.10",
 		"@astrojs/tailwind": "^6.0.2",
 		"@fontsource-variable/jetbrains-mono": "^5.2.5",
