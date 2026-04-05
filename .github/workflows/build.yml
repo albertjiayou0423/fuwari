@@ -80,7 +80,7 @@ jobs:
         run: pnpm astro build
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@5d5d22a31266b76f8d14eab2dea4de9b5c2e9ad2 # v4.6.2
+        uses: actions/upload-artifact@v4
         with:
           name: dist
           path: dist
@@ -92,13 +92,13 @@ jobs:
     name: Deploy to Cloudflare Pages
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@fa666a3265e4d0563c101b7e5d15f8d7d6fb03d9 # v4.3.0
+        uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@98c0635e9877b8dae6610f2192994b3e8b0e1f86
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
