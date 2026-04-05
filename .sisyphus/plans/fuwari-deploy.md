@@ -341,7 +341,7 @@
 
 ---
 
-- [ ] 7. 初始化 GitHub 仓库
+- [x] 7. 初始化 GitHub 仓库 (https://github.com/albertjiayou0423/fuwari)
 
   **What to do**:
   - 在 GitHub 创建新仓库（或用户提供已有仓库）
@@ -419,7 +419,7 @@
 
 ---
 
-- [ ] 9. 推送代码到 GitHub
+- [x] 9. 推送代码到 GitHub
 
   **What to do**:
   - 推送到 GitHub 仓库
@@ -439,8 +439,8 @@
   - **Blocked By**: T6, T7
 
   **Acceptance Criteria**:
-  - [ ] 代码已推送到 GitHub
-  - [ ] GitHub Actions 已触发
+  - [x] 代码已推送到 GitHub
+  - [x] GitHub Actions 已触发
 
   **QA Scenarios**:
   ```
@@ -456,7 +456,7 @@
 
 ---
 
-- [ ] 10. 触发并验证部署
+- [x] 10. 触发并验证部署
 
   **What to do**:
   - 等待 GitHub Actions 完成
@@ -477,8 +477,8 @@
   - **Blocked By**: T9
 
   **Acceptance Criteria**:
-  - [ ] 部署完成
-  - [ ] 获取到部署域名
+  - [x] 部署完成
+  - [x] 获取到部署域名
 
   **QA Scenarios**:
   ```
@@ -495,7 +495,7 @@
 
 ---
 
-- [ ] 11. 最终验证
+- [x] 11. 最终验证
 
   **What to do**:
   - 使用 curl 访问博客首页
@@ -516,8 +516,8 @@
   - **Blocked By**: T10
 
   **Acceptance Criteria**:
-  - [ ] curl 返回 200
-  - [ ] 页面包含博客标题
+  - [x] curl 返回 200
+  - [x] 页面包含博客标题
 
   **QA Scenarios**:
   ```
@@ -528,7 +528,7 @@
       1. curl -I https://<domain>
       2. curl -s https://<domain> | head -20
     Expected Result: HTTP 200，页面正常加载
-    Evidence: .sisyphus/evidence/task-11-final.html
+  Evidence: .sisyphus/evidence/task-11-final.html
   ```
 
   **Commit**: NO

@@ -7,7 +7,9 @@
     "ses_2c747d715ffekhU5Q3dy3Rkwsq",
     "ses_2c744d71effeR0jMC182v8vWIK",
     "ses_2c741c8f5ffeTKF6eQ7nlAVTts",
-    "ses_2c7406947ffeMl0M5EHFb3GCsz"
+    "ses_2c7406947ffeMl0M5EHFb3GCsz",
+    "ses_2c73b6415ffeun5DRvUjeBLnVU",
+    "ses_2c735fbb7ffeGg1oyyCX4ZMF7C"
   ],
   "plan_name": "fuwari-deploy",
   "agent": "atlas",
@@ -56,6 +58,24 @@
       "agent": "Sisyphus-Junior",
       "category": "quick",
       "updated_at": "2026-03-29T08:39:57.531Z"
+    },
+    "todo:7": {
+      "task_key": "todo:7",
+      "task_label": "7",
+      "task_title": "初始化 GitHub 仓库",
+      "session_id": "ses_2c73b6415ffeun5DRvUjeBLnVU",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-03-29T08:46:18.709Z"
+    },
+    "todo:8": {
+      "task_key": "todo:8",
+      "task_label": "8",
+      "task_title": "本地构建测试",
+      "session_id": "ses_2c735fbb7ffeGg1oyyCX4ZMF7C",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-03-29T08:51:49.084Z"
     }
   }
 }
